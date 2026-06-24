@@ -344,13 +344,32 @@
 
                     <div class="card card__proyect">
                         <div class="card__front">
+                            <img src="https://api.microlink.io/?url=https://helvetia-demo-sepia.vercel.app/&screenshot=true&meta=false&embed=screenshot.url"
+                                class="modal__img" alt="AstroCall">
+                        </div>
+                        <div class="card__back card__back-proyect">
+                            <span><strong>Helvetia Construction Management – Concept Redesign Demo</strong></span>
+                            <p>Diseño conceptual desarrollado como demostración ...</p>
+                            <button class="btn__modal" onclick="abrirModal('modal4', this)">Ver más</button>
+                            <div class="card__link">
+                                <a href="https://helvetia-demo-sepia.vercel.app/" target="_blank"
+                                    rel="noopener noreferrer"><span
+                                        class="material-symbols-outlined">Captive_Portal</span></a>
+                                <a href="#" target="_blank"
+                                    rel="noopener noreferrer"><span class="material-symbols-outlined">Code</span></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card card__proyect">
+                        <div class="card__front">
                             <img src="https://api.microlink.io/?url=https://manual-king-beer.vercel.app&screenshot=true&meta=false&embed=screenshot.url"
                                 class="modal__img" alt="Manual King Beer">
                         </div>
                         <div class="card__back card__back-proyect">
                             <span><strong>Manual de Operaciones – King Beer</strong></span>
                             <p>Demo de un sistema web interno para estandarizar,</p>
-                            <button class="btn__modal" onclick="abrirModal('modal4', this)">Ver más</button>
+                            <button class="btn__modal" onclick="abrirModal('modal5', this)">Ver más</button>
                             <div class="card__link">
                                 <a href="https://manual-king-beer.vercel.app/" target="_blank"
                                     rel="noopener noreferrer"><span
@@ -388,7 +407,7 @@
                         <div class="card__back card__back-proyect">
                             <span><strong>Pagina web de cerveceria King Beer</strong></span>
                             <p>Demo de una carta electrónica interactiva para bar,</p>
-                            <button class="btn__modal" onclick="abrirModal('modal6', this)">Ver más</button>
+                            <button class="btn__modal" onclick="abrirModal('modal7', this)">Ver más</button>
                             <div class="card__link">
                                 <a href="https://king-beer-carta-electronica.vercel.app/" target="_blank"
                                     rel="noopener noreferrer"><span
@@ -462,7 +481,27 @@
 
             <div id="modal4" class="modal">
                 <div class="modal__contenido">
-                    <button class="modal__cerrar" onclick="cerrarModal('modal4')">✕</button>
+                    <button class="modal__cerrar" onclick="cerrarModal('modal3')">✕</button>
+                    <img src="" class="modal__img" alt="preview del proyecto">
+                    <h3>Rediseño conceptual desarrollado como demostración de una posible presencia digital para una empresa del sector de construcción, infraestructura y gestión de proyectos.
+
+El proyecto fue diseñado con enfoque corporativo, priorizando una presentación clara de servicios, experiencia internacional, proyectos destacados y canales de contacto. Se trabajó una estructura moderna, responsive y orientada a transmitir profesionalismo y confianza en entornos empresariales.
+
+Incluye diseño adaptable para dispositivos móviles, organización de contenido corporativo, componentes reutilizables y una interfaz visual enfocada en la experiencia de usuario. <strong>HTML</strong> • <strong>CSS</strong> •
+                        <strong>JavaScript</strong>.
+                    </p>
+                    <div class="card__link">
+                        <a href="https://astro-call-steel.vercel.app/" target="_blank" rel="noopener noreferrer"><span
+                                class="material-symbols-outlined">Captive_Portal</span></a>
+                        <a href="https://github.com/alghush/AstroCall.git" target="_blank"
+                            rel="noopener noreferrer"><span class="material-symbols-outlined">Code</span></a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="modal5" class="modal">
+                <div class="modal__contenido">
+                    <button class="modal__cerrar" onclick="cerrarModal('modal5')">✕</button>
                     <img src="" class="modal__img" alt="preview del proyecto">
                     <h3>Manual de Operaciones – King Beer</h3>
                     <p>Demo de un sistema web interno para estandarizar procesos de atención en un bar, con navegación
@@ -476,9 +515,9 @@
                 </div>
             </div>
 
-            <div id="modal5" class="modal">
+            <div id="modal6" class="modal">
                 <div class="modal__contenido">
-                    <button class="modal__cerrar" onclick="cerrarModal('modal5')">✕</button>
+                    <button class="modal__cerrar" onclick="cerrarModal('modal6')">✕</button>
                     <img src="" class="modal__img" alt="preview del proyecto">
                     <h3>Manual de Operaciones – Espacioword</h3>
                     <p>Rediseño y demo del manual operativo con nueva maquetación y estructura visual mejorada.
@@ -493,9 +532,9 @@
                 </div>
             </div>
 
-            <div id="modal6" class="modal">
+            <div id="modal7" class="modal">
                 <div class="modal__contenido">
-                    <button class="modal__cerrar" onclick="cerrarModal('modal6')">✕</button>
+                    <button class="modal__cerrar" onclick="cerrarModal('modal7')">✕</button>
                     <img src="" class="modal__img" alt="preview del proyecto">
                     <h3>Pagina web de cerveceria King Beer</h3>
                     <p>Demo de una carta electrónica interactiva para bar, con diseño moderno y navegación dinámica por
