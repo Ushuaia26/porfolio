@@ -810,6 +810,10 @@ main {
     padding: 1.5rem;
 }
 
+.card__back-proyect{
+    color: #d1d1d1b1;
+}
+
 .card__link {
     display: flex;
     justify-content: space-between;
